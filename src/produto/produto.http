@@ -1,0 +1,4 @@
+GET http://localhost:3080/produtos/ping
+
+###
+GET http://localhost:3080/produtos/2
