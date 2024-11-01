@@ -1,4 +1,21 @@
 GET http://localhost:3080/produtos/ping
 
 ###
+
+GET http://localhost:3080/produtos
+
+###
 GET http://localhost:3080/produtos/2
+
+###
+// OBS: TEM QUE SEGUIR ESSA ORDEMMMM ABAIXO
+POST http://localhost:3080/produtos
+Content-Type: application/json
+
+{
+  "nome": "Teclado mecanico foda",
+  "preco": 299.99,
+  "descricao": "teclado muito muito foda",
+  "imagemUrl": "https://ecoms1.com/29609/imgs/big/@v3/1644518141756-71sfadtowql._ac_sy450_.jpg.avif"
+}
+
